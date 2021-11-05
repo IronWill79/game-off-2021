@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 
-export default class MainScene extends Phaser.Scene {
+export class MainScene extends Phaser.Scene {
   constructor() {
     super('Game Off 2021');
   }
