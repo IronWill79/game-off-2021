@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "typeRoots": ["node_modules/@types", "node_modules/phaser/types"],
+    "types": ["Phaser"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"]
+}
