@@ -1,3 +1,4 @@
+import { Spider } from 'entities/Spider';
 import Phaser from 'phaser';
 
 export class PreloadScene extends Phaser.Scene {
@@ -6,6 +7,6 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('spider');
+    Spider.preload(this);
   }
 }
