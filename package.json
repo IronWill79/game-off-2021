@@ -1,0 +1,8 @@
+{
+  "name": "game-off-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/IronWill79/game-off-2021.git",
+  "author": "Will Walsh <1820392+IronWill79@users.noreply.github.com>",
+  "license": "Unlicense"
+}
